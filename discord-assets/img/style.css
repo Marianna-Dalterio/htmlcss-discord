@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header_top {
+    min-width: 1000px;
+    background-color: aquamarine;
+    border: 1px dashed red;
+
+}
+
+.searchbar {
+    margin: 10px 20px;
+    background-color: lightyellow;
+    display: flex;
+    justify-content: space-between;
+    border: 1px dashed red;
+}
+
+.searchbar link {
+    justify-content: space-evenly;
+}
+
+.header {
+    min-width: 1000px;
+    background-color: blue;
+    border: 1px dashed red;
+}
+
+.container {
+    margin: 20px 40px;
+    border: 1px dashed red;
+}
