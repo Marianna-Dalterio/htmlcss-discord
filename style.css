@@ -10,27 +10,95 @@ body {
     height: 100%;
 }
 
-.debug {}
+.debug {
+    .header_top {
+        background-color: aquamarine;
+        border: 1px dashed red;
+
+    }
+
+    .iltuopostoperparlare {
+        background-color: blue;
+        border: 1px dashed red;
+    }
+
+    .canali,
+    .fandom {
+        background-color: white;
+        border: 1px dashed red;
+
+    }
+
+    .comodo {
+        background-color: white;
+        border: 1px dashed red;
+
+    }
+
+    .footer {
+        background-color: black;
+        border: 1px dashed red;
+    }
+
+    .footer_bottom {
+        background-color: black;
+        border: 1px dashed red;
+    }
+
+    .tecnologia-affidabile {
+        background-color: lightgrey;
+        border: 1px dashed red;
+    }
+
+    .searchbar {
+        background-color: lightyellow;
+        border: 1px dashed red;
+    }
+
+    .container {
+        border: 1px dashed red;
+        background-color: darkmagenta;
+    }
+
+    .pic_container {
+        background-color: lightgreen;
+
+    }
+
+    .text_container {
+        background-color: lightblue;
+
+    }
+
+    .sidebar {
+        background-color: pink;
+        border: 1px dashed red;
+    }
+
+    .columns {
+        background-color: aqua;
+        border: 1px dashed red;
+    }
+
+    .searchbar_footer {
+        background-color: aquamarine;
+        border: 1px dashed red;
+    }
+
+}
 
 /*#region container 1*/
 .header_top {
-    background-color: aquamarine;
-    border: 1px dashed red;
     min-height: 50px;
-
 }
 
 .iltuopostoperparlare {
     min-height: 200px;
-    background-color: blue;
-    border: 1px dashed red;
 }
 
 .canali,
 .fandom {
     min-height: 100px;
-    background-color: white;
-    border: 1px dashed red;
     display: flex;
     gap: 1rem;
     justify-content: center;
@@ -38,8 +106,6 @@ body {
 
 .comodo {
     min-height: 100px;
-    background-color: white;
-    border: 1px dashed red;
     display: flex;
     flex-direction: row-reverse;
     gap: 1rem;
@@ -48,22 +114,16 @@ body {
 
 .footer {
     min-height: 200px;
-    background-color: black;
-    border: 1px dashed red;
     display: flex;
     justify-content: center;
 }
 
 .footer_bottom {
-    background-color: black;
-    border: 1px dashed red;
     min-height: 50px;
 }
 
 .tecnologia-affidabile {
     min-height: 400px;
-    background-color: lightgrey;
-    border: 1px dashed red;
 }
 
 /*#endregion container*/
@@ -71,17 +131,12 @@ body {
 /*#region container2*/
 .searchbar {
     margin: 10px 100px;
-    background-color: lightyellow;
     display: flex;
     justify-content: space-between;
-    border: 1px dashed red;
-
 }
 
 .container {
     margin: 20px 150px;
-    border: 1px dashed red;
-    background-color: darkmagenta;
     display: flex;
     justify-content: center;
     min-height: 200px;
@@ -96,7 +151,6 @@ body {
     margin-bottom: 10px;
     min-width: 200px;
     min-height: 150px;
-    background-color: lightgreen;
 
 }
 
@@ -105,30 +159,23 @@ body {
     margin-bottom: 10px;
     min-width: 150px;
     min-height: 200px;
-    background-color: lightblue;
 
 }
 
 .sidebar {
     min-width: 100px;
     min-height: 200px;
-    background-color: pink;
-    border: 1px dashed red;
 }
 
 .columns {
     min-width: 60px;
     min-height: 200px;
-    background-color: aqua;
-    border: 1px dashed red;
 }
 
 .searchbar_footer {
     margin: 10px 300px;
-    background-color: aquamarine;
     display: flex;
     justify-content: space-between;
-    border: 1px dashed red;
 }
 
 /*#endregion container2*/
