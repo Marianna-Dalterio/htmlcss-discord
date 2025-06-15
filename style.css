@@ -105,6 +105,9 @@ body {
     display: flex;
     gap: 1rem;
     justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+
 }
 
 .comodo {
@@ -220,19 +223,33 @@ body {
     justify-content: space-evenly;
 }
 
+.section-container {
+    display: flex;
+    align-items: start;
+    width: 1250px;
+
+}
+
 .pic_container {
-    margin-top: 10px;
+    margin-top: 30px;
     margin-bottom: 10px;
     min-width: 200px;
-    min-height: 150px;
+
 
 }
 
 .text_container {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    min-width: 150px;
-    min-height: 200px;
+    margin-top: 30px;
+    margin-left: 100px;
+    color: black;
+    text-align: left;
+    width: 250px;
+    font-size: large;
+
+    p {
+        margin-top: 20px;
+        line-height: 25px;
+    }
 
 }
 
