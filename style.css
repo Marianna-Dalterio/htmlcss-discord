@@ -171,6 +171,10 @@ body {
     font-size: large;
 }
 
+.searchbar link {
+    justify-content: space-evenly;
+}
+
 .container {
     display: flex;
     justify-content: start;
@@ -222,7 +226,6 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
-
 }
 
 .scarica,
@@ -234,6 +237,11 @@ body {
     gap: 2rem;
 }
 
+.apri {
+    background-color: #23272a;
+    color: white;
+}
+
 .scarica-end {
     border-radius: 4rem;
     font-size: larger;
@@ -242,22 +250,11 @@ body {
     margin-top: 30px;
     background-color: #3160e06a;
     color: white;
-
-}
-
-.apri {
-    background-color: #23272a;
-    color: white;
 }
 
 /*fine header top*/
 
 /*inizio main*/
-
-.searchbar link {
-    justify-content: space-evenly;
-}
-
 .section-container {
     display: flex;
     align-items: start;
@@ -292,6 +289,9 @@ body {
     width: 1250px;
 }
 
+/*fine main*/
+
+/*inizio footer*/
 .sidebar {
     min-width: 100px;
     min-height: 200px;
@@ -308,4 +308,5 @@ body {
     justify-content: space-between;
 }
 
+/*fine footer*/
 /*#endregion container2*/
