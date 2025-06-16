@@ -95,7 +95,6 @@ body {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    max-width: 100%;
     padding: 100px 0;
 }
 
@@ -113,9 +112,11 @@ body {
 .comodo {
     min-height: 100px;
     display: flex;
-    flex-direction: row-reverse;
     gap: 1rem;
     justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    background-color: #f6f6f6;
 }
 
 .footer {
@@ -128,8 +129,13 @@ body {
     min-height: 50px;
 }
 
-.tecnologia-affidabile {
+.tecnologia-affidabile-section {
     min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    background-color: #f6f6f6;
 }
 
 /*#endregion container*/
@@ -171,7 +177,7 @@ body {
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
-    max-width: 900px;
+    max-width: 1000px;
     margin: 0 auto;
     padding: 0 20px;
 
@@ -189,6 +195,26 @@ body {
         margin-bottom: 30px;
     }
 
+    .paragraph1 {
+        font-size: large;
+        line-height: 20px;
+        padding-top: 1rem;
+        text-align: center;
+        margin-bottom: 30px;
+        color: black;
+    }
+
+    .tecnologia {
+        color: black;
+    }
+
+    .pronto-a-iniziare {
+        color: black;
+        font-size: x-large;
+        background-image: url(./img/stars.svg);
+        background-size: 100% 100%;
+        padding-top: 70px;
+    }
 }
 
 .buttons {
@@ -206,7 +232,16 @@ body {
     padding: 20px 30px;
     border: 0;
     gap: 2rem;
+}
 
+.scarica-end {
+    border-radius: 4rem;
+    font-size: larger;
+    padding: 10px 30px;
+    border: 0;
+    margin-top: 30px;
+    background-color: #3160e06a;
+    color: white;
 
 }
 
@@ -227,15 +262,12 @@ body {
     display: flex;
     align-items: start;
     width: 1250px;
-
 }
 
 .pic_container {
     margin-top: 30px;
     margin-bottom: 10px;
     min-width: 200px;
-
-
 }
 
 .text_container {
@@ -243,7 +275,7 @@ body {
     margin-left: 100px;
     color: black;
     text-align: left;
-    width: 250px;
+    width: 300px;
     font-size: large;
 
     p {
@@ -251,6 +283,13 @@ body {
         line-height: 25px;
     }
 
+}
+
+.section-container1 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: start;
+    width: 1250px;
 }
 
 .sidebar {
